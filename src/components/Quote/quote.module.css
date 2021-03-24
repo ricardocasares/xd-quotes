@@ -1,0 +1,30 @@
+:local(.box) {
+  background: var(--color-light);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid var(--color-quote-border);
+}
+
+:local(.box:hover) {
+  border: 2px solid var(--color-quote-border-hover);
+}
+
+:local(.box:active) {
+  background: var(--color-quote-bg-active);
+}
+
+:local(.text) {
+  color: var(--color-quote-text);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+:local(.author) {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-quote-author);
+  border-radius: 4px;
+}

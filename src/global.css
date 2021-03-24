@@ -1,0 +1,22 @@
+:root {
+  /*
+  @todo
+  Some colors on the XD prototype are just alpha
+  from another one, mostly the grays.
+  */
+  --color-dark: black;
+  --color-light: white;
+  --color-blue: #1473E6;
+  --color-gray0: #505050;
+  --color-gray1: rgb(160, 160, 160);
+  --color-gray2: rgb(210, 210, 210);
+  --color-gray3: rgb(224, 224, 224);
+  
+  --color-cta:  var(--color-blue);
+  --color-quote-bg: var(--color-gray0);
+  --color-quote-bg-active: var(--color-gray3);
+  --color-quote-text: var(--color-gray0);
+  --color-quote-author: var(--color-gray1);
+  --color-quote-border: var(--color-light);
+  --color-quote-border-hover: var(--color-gray2);
+}

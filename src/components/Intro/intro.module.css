@@ -1,0 +1,23 @@
+:local(.box) {
+  padding: 15px;
+}
+
+:local(.icon) {
+  margin-bottom: 10px;
+}
+
+:local(.title) {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  color: var(--color-gray0);
+}
+
+:local(.subtitle) {
+  color: var(--color-gray1);
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}

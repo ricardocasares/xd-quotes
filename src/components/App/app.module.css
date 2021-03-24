@@ -1,0 +1,6 @@
+:local(.panel) {
+  display: flex;
+  flex-direction: column;
+  /* 110px seems to be the plugin toolbar height */
+  height: calc(100vh - 110px);
+}

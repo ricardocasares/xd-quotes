@@ -1,0 +1,8 @@
+:local(.box) {
+  flex: 1;
+  background: var(--color-gray3);
+  border-top: 1px solid var(--color-gray2);
+  border-bottom: 1px solid var(--color-gray2);
+  padding: 15px;
+  overflow-y: scroll;
+}

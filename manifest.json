@@ -1,0 +1,29 @@
+{
+  "id": "d7487308",
+  "author": "Ricardo Casares",
+  "name": "Quotes",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "38.0"
+  },
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Pick a quote",
+      "panelId": "quotePicker"
+    }
+  ]
+}
